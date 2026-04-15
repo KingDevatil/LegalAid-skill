@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LegalAid - 全流程维权助手</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .card {
+    max-width: 520px;
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px;
+    padding: 48px 36px;
+  }
+  .badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #fff, #c4b5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .subtitle {
+    font-size: 15px;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 36px;
+    line-height: 1.6;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 14px 18px;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .icon-1 { background: linear-gradient(135deg, #f97316, #ef4444); }
+  .icon-2 { background: linear-gradient(135deg, #3b82f6, #6366f1); }
+  .icon-3 { background: linear-gradient(135deg, #10b981, #059669); }
+  .icon-4 { background: linear-gradient(135deg, #f59e0b, #d97706); }
+  .feature-text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .feature-text p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.4;
+  }
+  .types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 36px;
+  }
+  .type-tag {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+  }
+  .footer {
+    text-align: center;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.8;
+  }
+  .footer a {
+    color: #a78bfa;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .highlight { color: #fbbf24; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="badge">AI SKILL · 开源免费</div>
+  <h1>LegalAid<br>维权助手</h1>
+  <p class="subtitle">全流程维权辅助 · 从意识到被侵权到法庭判决<br>覆盖 8 大维权类型 · 所有数据来源官方</p>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon icon-1">🔍</div>
+      <div class="feature-text">
+        <h3>侵权诊断</h3>
+        <p>描述遭遇，自动判断是否被侵权、侵犯哪些权益</p>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="icon icon-2">📋</div>
+      <div class="feature-text">
+        <h3>文书生成</h3>
+        <p>投诉信、起诉状、仲裁申请书、信访材料一键生成</p>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="icon icon-3">⚖️</div>
+      <div class="feature-text">
+        <h3>判例查询</h3>
+        <p>对接裁判文书网、人民法院案例库，参考真实判例</p>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="icon icon-4">🗺️</div>
+      <div class="feature-text">
+        <h3>维权路径</h3>
+        <p>投诉→举报→调解→起诉→庭审→上诉，全程指引</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="types">
+    <span class="type-tag">🛒 消费者维权</span>
+    <span class="type-tag">💼 劳动维权</span>
+    <span class="type-tag">🏠 租房维权</span>
+    <span class="type-tag">🚔 报警维权</span>
+    <span class="type-tag">🌐 互联网维权</span>
+    <span class="type-tag">🏛️ 行政维权</span>
+    <span class="type-tag">💰 金融维权</span>
+    <span class="type-tag">📱 网络纠纷</span>
+  </div>
+
+  <div class="footer">
+    <p>数据来源：最高法院 · 市场监管总局 · 人社部 · 工信部 · 司法部</p>
+    <p style="margin-top:8px"><a href="https://github.com/KingDevatil/LegalAid-skill">GitHub → KingDevatil/LegalAid-skill</a></p>
+  </div>
+</div>
+</body>
+</html>
