@@ -34,6 +34,7 @@
   - 邻里纠纷（相邻权、噪音污染、漏水等）
   - 社区纠纷（业主委员会、公共设施、社区管理等）
   - 上学纠纷（教育资源分配、学校管理、学籍问题、校园霸凌等）
+  - 出行/交通纠纷（航班延误取消、退票纠纷、列车晚点、出租车拒载绕路、旅游强制消费等）
   - 其他类型侵权
 - 如构成侵权，明确告知用户被侵犯了哪些具体权益
 - 如不构成侵权，客观解释原因
@@ -60,6 +61,7 @@
 | 物业维权 | 物业费争议、物业服务质量、公共区域使用 | `knowledge/property-law.md` |
 | 邻里/社区维权 | 相邻权、噪音污染、居委会不作为 | `knowledge/community-law.md` |
 | 上学维权 | 教育资源、学籍、校园霸凌、学校管理 | `knowledge/education-law.md` |
+| 出行/交通维权 | 航班延误取消、退票、列车晚点、出租车绕路、旅游纠纷 | `knowledge/travel-law.md` |
 
 - 引用相关法律条文（参考对应知识库文件）
 - 根据定性结果，给出该类型的维权要点和后续步骤建议
@@ -335,8 +337,10 @@
 - `knowledge/community-law.md` — 社区/邻里维权知识库（相邻关系、居委会组织法、噪声污染防治）
 - `knowledge/education-law.md` — 上学维权知识库（教育法、义务教育法、未成年人保护法、校园霸凌）
 - `knowledge/personal-injury-law.md` — 人身伤害维权知识库（殴打、交通事故、工伤、医疗事故）
+- `knowledge/travel-law.md` — 出行/交通维权知识库（航空、铁路、出租车/网约车、旅游）
 - `examples/consumer-case.md` — 消费者维权示例
 - `examples/labor-case.md` — 劳动维权示例
 - `examples/housing-case.md` — 租房维权示例
 - `examples/police-case.md` — 报警维权示例
 - `examples/internet-case.md` — 互联网维权示例
+- `examples/travel-case.md` — 出行/交通维权示例
