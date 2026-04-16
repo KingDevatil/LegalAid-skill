@@ -80,7 +80,7 @@ platforms:
 - 根据维权类型确定对应的政府职能部门（参考 `knowledge/channels.md`）
 - 生成正式投诉信（使用 docx skill，模板参考 `knowledge/templates.md`）
 - 提供投诉渠道指引（电话、网站、地址）
-- 如用户需要投诉话术，参考 `knowledge/templates.md` 中的话术指引
+- **主动询问用户**：是否需要投诉话术或投诉信模板？如需要，读取 `knowledge/templates.md` 生成
 
 ### Step 5：升级举报
 
@@ -89,6 +89,7 @@ platforms:
 **操作**：
 - 判断是否存在职能部门不作为
 - 生成举报信或信访材料（模板参考 `knowledge/templates.md`）
+- **主动询问用户**：是否需要信访申请书模板？如需要，读取 `knowledge/templates.md` 生成
 - 指引信访渠道
 
 ### Step 6：调解评估
@@ -108,6 +109,7 @@ platforms:
 - **被告选择**：合理选择被告组合，提高胜诉概率
 - **诉讼请求**：全面、合理确定赔偿项目
 - 生成起诉状/仲裁申请书（使用 docx skill，模板参考 `knowledge/templates.md`）
+- **主动询问用户**：是否需要起诉状/仲裁申请书模板？如需要，读取 `knowledge/templates.md` 生成
 
 ### Step 8：庭审准备
 
