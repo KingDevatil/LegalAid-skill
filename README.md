@@ -17,9 +17,11 @@
 
 ### OpenClaw
 
-**方式 A：ClawHub CLI 一键安装**
-```bash
-npx clawhub@latest install https://github.com/KingDevatil/LegalAid-skill
+**方式 A：在对话中直接安装**
+
+在 OpenClaw 对话中粘贴仓库地址，它会自动克隆并识别 `skill.md`：
+```
+Clone https://github.com/KingDevatil/LegalAid-skill.git
 ```
 
 **方式 B：手动安装**
