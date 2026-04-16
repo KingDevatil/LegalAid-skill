@@ -154,18 +154,23 @@ platforms:
 
 ## 知识库文件
 
-详细法律知识和模板请参考 `knowledge/` 目录：
-- `consumer-law.md` — 消费者维权（含电商、直播带货）
-- `labor-law.md` — 劳动维权
-- `contract-law.md` — 租房维权
-- `admin-law.md` — 行政维权
-- `police-law.md` — 报警维权
-- `internet-law.md` — 互联网维权
-- `personal-injury-law.md` — 人身伤害维权
-- `property-law.md` — 物业维权
-- `community-law.md` — 社区/邻里维权
-- `education-law.md` — 上学维权
-- `travel-law.md` — 出行维权
-- `medical-law.md` — 医疗维权
-- `insurance-law.md` — 保险维权
-- `channels.md` — 维权渠道完整信息
+**重要**：本 Skill 包含详细的法律知识库，位于 `knowledge/` 目录（与 SKILL.md 同级）。在处理用户维权问题时，**必须根据维权类型主动读取对应的知识库文件**，获取详细法律依据、维权要点和操作指引。
+
+**读取方式**：使用 Read 工具读取 `knowledge/` 目录下的对应文件。
+
+| 维权类型 | 知识库文件 | 读取时机 |
+|---------|-----------|---------|
+| 消费者维权 | `knowledge/consumer-law.md` | 商品质量、虚假宣传、退换货、电商、直播带货 |
+| 劳动维权 | `knowledge/labor-law.md` | 欠薪、辞退、加班费、社保、未签合同 |
+| 租房维权 | `knowledge/contract-law.md` | 押金纠纷、房屋质量、房东违约 |
+| 行政维权 | `knowledge/admin-law.md` | 行政复议、行政诉讼、信访 |
+| 报警维权 | `knowledge/police-law.md` | 报案不受理、不立案、警务督察 |
+| 互联网维权 | `knowledge/internet-law.md` | 个人信息泄露、APP侵权、通信服务 |
+| 人身伤害 | `knowledge/personal-injury-law.md` | 被殴打、交通事故、工伤、医疗事故 |
+| 物业维权 | `knowledge/property-law.md` | 物业费、物业服务质量、公共区域 |
+| 社区/邻里 | `knowledge/community-law.md` | 噪音扰民、相邻权、居委会 |
+| 上学维权 | `knowledge/education-law.md` | 学籍、校园霸凌、教育资源 |
+| 出行维权 | `knowledge/travel-law.md` | 航班延误、退票、出租车、旅游纠纷 |
+| 医疗维权 | `knowledge/medical-law.md` | 医疗纠纷、药品安全、美容医疗 |
+| 保险维权 | `knowledge/insurance-law.md` | 理赔拒赔、销售误导、退保 |
+| 渠道查询 | `knowledge/channels.md` | 需要投诉电话、网站、地址时 |
