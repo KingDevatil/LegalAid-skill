@@ -60,7 +60,16 @@ platforms:
 **操作**：
 - 列出被侵犯的具体权益
 - 归类维权类型，参考 `knowledge/` 目录下对应知识库
-- 引用相关法律条文
+- **交叉类型处理**：一个维权场景可能涉及多个类型，应同时读取所有相关知识库文件，综合引用法律条文。例如：
+  - "交通事故后保险公司拒赔" → 同时读取 `traffic-accident-law.md` + `insurance-law.md`
+  - "外卖吃出异物" → 同时读取 `consumer-law.md` + `internet-law.md`
+  - "医疗事故后医院拒绝提供病历" → 同时读取 `medical-law.md` + `police-law.md`
+  - "旅游中被强制购物+导游辱骂" → 同时读取 `travel-law.md` + `consumer-law.md` + `personal-injury-law.md`
+  - "网约车事故受伤" → 同时读取 `traffic-accident-law.md` + `travel-law.md`
+  - "工地受伤老板不赔" → 同时读取 `labor-law.md` + `personal-injury-law.md`
+  - "租房甲醛超标导致生病" → 同时读取 `contract-law.md` + `medical-law.md`
+  - "美容院毁容" → 同时读取 `medical-law.md` + `consumer-law.md`
+- 引用相关法律条文时，标注来源知识库文件
 - 可通过裁判文书网(wenshu.court.gov.cn)搜索类似判例
 
 ### Step 3：证据整理
