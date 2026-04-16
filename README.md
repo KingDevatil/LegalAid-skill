@@ -15,7 +15,41 @@
 
 ## 安装与使用
 
-### 方式一：Trae / Cursor 等 AI 编辑器
+### OpenClaw
+
+**方式 A：ClawHub CLI 一键安装**
+```bash
+npx clawhub@latest install https://github.com/KingDevatil/LegalAid-skill
+```
+
+**方式 B：手动安装**
+1. 克隆仓库：`git clone https://github.com/KingDevatil/LegalAid-skill.git`
+2. 将 `rights-protection` 文件夹复制到 `~/.openclaw/skills/` 目录
+3. 重启 OpenClaw
+
+### Hermes Agent
+
+Hermes 原生支持 `SKILL.md` 格式，可直接安装：
+```bash
+hermes skills install https://github.com/KingDevatil/LegalAid-skill
+```
+
+### CoPaw
+
+CoPaw 支持通过 GitHub 仓库 URL 导入 Skill：
+1. 复制本仓库的 URL：`https://github.com/KingDevatil/LegalAid-skill`
+2. 在 CoPaw 中进入 Skills 管理页面
+3. 选择「导入 Skill」，粘贴 URL
+4. 确认安装即可
+
+### WorkBuddy
+
+1. 打开 WorkBuddy 左侧「技能」菜单
+2. 选择「上传技能包」或「导入自定义 Skill」
+3. 选择克隆下来的 `rights-protection` 文件夹
+4. 安装完成后在「已安装」区域启用
+
+### Trae / Cursor 等 AI 编辑器
 
 1. **克隆仓库**
    ```bash
@@ -24,38 +58,24 @@
 
 2. **放置到 Skill 目录**
    
-   将整个 `rights-protection` 文件夹放入 AI 编辑器的 Skill 目录中：
-   
    | 平台 | Skill 目录位置 |
    |------|---------------|
    | Trae | `~/.trae/skills/` 或设置中配置的 Skill 路径 |
    | Cursor | `~/.cursor/skills/` |
    | 其他 | 参考对应平台的 Skill 配置说明 |
 
-3. **启用 Skill**
-   
-   在 AI 编辑器中启用 `LegalAid` 或 `维权助手` Skill，即可开始使用。
+3. **启用 Skill** 后即可在对话中使用
 
-4. **使用方法**
-   
-   在对话中输入维权相关问题，AI 会自动调用本 Skill 提供专业维权指导：
-   
-   ```
-   Use Skill: LegalAid 我在淘宝买到了假货，商家拒绝退款怎么办？
-   ```
+### 通用方式：直接作为提示词使用
 
-### 方式二：直接作为提示词使用
-
-如果您的 AI 平台不支持 Skill 机制，可以将 `skill.md` 的内容作为系统提示词（System Prompt）粘贴使用：
+如果您的平台不支持 Skill 机制，可以将 `skill.md` 的内容作为系统提示词（System Prompt）粘贴使用：
 
 1. 打开 `skill.md` 文件
 2. 复制全部内容
 3. 在 AI 对话中设置为系统提示词或上下文
 4. 开始提问维权相关问题
 
-### 方式三：API 调用
-
-对于开发者，可以通过 API 方式集成：
+### 开发者：API 调用
 
 ```python
 # 读取 skill.md 作为系统提示词
