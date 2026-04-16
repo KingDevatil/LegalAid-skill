@@ -174,3 +174,12 @@ platforms:
 | 医疗维权 | `knowledge/medical-law.md` | 医疗纠纷、药品安全、美容医疗 |
 | 保险维权 | `knowledge/insurance-law.md` | 理赔拒赔、销售误导、退保 |
 | 渠道查询 | `knowledge/channels.md` | 需要投诉电话、网站、地址时 |
+| 文书模板 | `knowledge/templates.md` | 需要生成投诉信、起诉状、仲裁申请书等文书时 |
+
+**示例案例**：`examples/` 目录包含各类维权场景的完整处理示例，可在处理类似问题时参考：
+- `examples/consumer-case.md` — 消费者维权示例
+- `examples/labor-case.md` — 劳动维权示例
+- `examples/housing-case.md` — 租房维权示例
+- `examples/police-case.md` — 报警维权示例
+- `examples/internet-case.md` — 互联网维权示例
+- `examples/travel-case.md` — 出行维权示例
