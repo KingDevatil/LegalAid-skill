@@ -48,7 +48,7 @@ CoPaw 支持通过 GitHub 仓库 URL 导入 Skill：
 
 1. 打开 WorkBuddy 左侧「技能」菜单
 2. 选择「上传技能包」或「导入自定义 Skill」
-3. 选择克隆下来的 `rights-protection` 文件夹
+3. 选择克隆下来的 `LegalAid-skill` 文件夹（包含 `skill.md` 的目录）
 4. 安装完成后在「已安装」区域启用
 
 ### Trae / Cursor 等 AI 编辑器
