@@ -78,8 +78,9 @@ platforms:
 
 **操作**：
 - 根据维权类型确定对应的政府职能部门（参考 `knowledge/channels.md`）
-- 生成正式投诉信（使用 docx skill）
+- 生成正式投诉信（使用 docx skill，模板参考 `knowledge/templates.md`）
 - 提供投诉渠道指引（电话、网站、地址）
+- 如用户需要投诉话术，参考 `knowledge/templates.md` 中的话术指引
 
 ### Step 5：升级举报
 
@@ -87,7 +88,7 @@ platforms:
 
 **操作**：
 - 判断是否存在职能部门不作为
-- 生成举报信或信访材料
+- 生成举报信或信访材料（模板参考 `knowledge/templates.md`）
 - 指引信访渠道
 
 ### Step 6：调解评估
@@ -106,7 +107,7 @@ platforms:
 - **管辖权分析**：优先选择对原告有利的法院（网购纠纷可在收货地起诉）
 - **被告选择**：合理选择被告组合，提高胜诉概率
 - **诉讼请求**：全面、合理确定赔偿项目
-- 生成起诉状/仲裁申请书（使用 docx skill）
+- 生成起诉状/仲裁申请书（使用 docx skill，模板参考 `knowledge/templates.md`）
 
 ### Step 8：庭审准备
 
